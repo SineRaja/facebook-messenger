@@ -1,0 +1,98 @@
+.login_container{
+ width: 100%;
+ height: 100vh;
+ display: flex !important;
+ flex-direction: row !important;
+ padding: 50px;
+}
+
+.auth_one{
+ width: 50%;
+ padding: 25px;
+ text-align: center;
+}
+
+.auth_two{
+    width: 50%;
+    padding: 25px;
+    display: flex !important;
+    justify-content: center !important;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.login_header_style{
+    font-family: 'georgia';
+    font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  color: #F36825;
+}
+
+.span_design{
+    color: #0E2C4B;
+}
+.login-image-design{
+ width: 60%;
+ object-fit: cover;
+}
+
+.registerdeisgn{
+    width : 60%;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    border-radius: 10px;
+    padding: 40px;
+    height: fit-content;
+    text-align: center !important;
+}
+
+
+.logindeisgn {
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    border-radius: 10px;
+    padding: 40px;
+    height: fit-content;
+    text-align: center !important;
+}
+
+.logindeisgn form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0 auto 10px auto;
+}
+
+.auth__success {
+    padding: 10px 0;
+    background-color: hsl(147, 79%, 87%);
+    margin-bottom: 20px;
+}
+
+.auth__error {
+    padding: 10px 0;
+    background-color: hsl(0, 79%, 87%);
+    margin-bottom: 20px;
+}
+
+.logindeisgn form>input,
+button {
+    height: 40px;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+.description_design{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0E2C4B;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+
+
+

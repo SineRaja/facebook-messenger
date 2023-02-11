@@ -1,0 +1,48 @@
+
+.verifyEmail {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  width: 60%;
+  max-width: 500px;
+  text-align: center;
+  padding: 40px 20px;
+  background-color: hsl(210, 10%, 98%);
+  display: flex !important;
+  flex-direction: column !important;
+  border-radius: 10px;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.verifyEmail h1{
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.verifyEmail > p{
+  line-height: 25px;
+}
+
+.verifyEmail > span{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0E2C4B;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.verifyEmail > button {
+  margin-top: 35px;
+}
+
+.mailIdDesign{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0E2C4B;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 10px;
+}
+

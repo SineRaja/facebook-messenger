@@ -1,5 +1,16 @@
 .App {
+  width: 100%;
   text-align: center;
+}
+
+.app_form {
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  background-color: #e9e9eb;
+  z-index: 1;
+  width: 90%;
+  margin: 20px;
 }
 
 .App-logo {
@@ -14,14 +25,28 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #f8f8fa;
   min-height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 134, 125);
+}
+
+.app_formControl{
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.app_input{
+  flex: 1;
+}
+
+.app_iconButton{
+  flex: 0;
 }
 
 .App-link {
@@ -32,6 +57,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

@@ -1,0 +1,98 @@
+.App {
+  width: 100%;
+  text-align: center;
+}
+
+.app_form {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 20px;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 0;
+  background-color: #ffffff;
+  z-index: 1;
+  width: 95%;
+  margin: 20px;
+}
+
+.top_header_styling {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.flipmove_design {
+  margin-bottom: 100px;
+}
+
+.user_Name_display {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #05cd8e;
+  font-size: 24px;
+  font-weight: 100;
+  padding: 10px;
+  font-weight: bold;
+  margin-left: auto !important;
+}
+
+.header_styling {
+  text-align: center !important;
+  color: rgb(5, 10, 11);
+}
+
+.App-logo {
+  height: 15vmin;
+  display: flex;
+  margin-right: auto !important;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #f8f8fa;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 134, 125);
+}
+
+.app_formControl {
+  margin-top: 20px;
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.app_input {
+  flex: 1;
+}
+
+.app_iconButton {
+  flex: 0;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
